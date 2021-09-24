@@ -1,0 +1,21 @@
+{
+    "name": "nord-dark",
+    "displayName": "Nord Dark",
+    "description": "A darker version of the Nord theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nord Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nord-dark-color-theme.json"
+            }
+        ]
+    }
+}
