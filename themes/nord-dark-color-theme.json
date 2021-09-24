@@ -2,10 +2,81 @@
 	"name": "Nord Dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+    // Base Color
+		"focusBorder": "#2E3440",
+    "foreground": "#ECEFF4",
+    "widget.shadow": "#0E1420",
+    "selection.background": "#81A1C199",
+    "descriptionForeground": "#D8DEE9",
+    "errorForeground": "#BF616A",
+    "icon.foreground": "#ECEFF4",
+    "sash.hoverBorder": "#2E3440",
+    
+    // Window Border
+    "window.activeBorder": "#2E3440",
+    "window.inactiveBorder": "#1E2430",
+
+    // Text Colors
+    "textBlockQuote.background": "#3B4252",
+    "textBlockQuote.border": "#2E3440",
+    "textCodeBlock.background": "#1E2430",
+    "textLink.activeForeground": "#88C0D0",
+    "textLink.foreground": "#5E81AC",
+    // "textPreformat.foreground": "#f00",
+    // "textSeparator.foreground": "#f00",
+
+    // Action Colors
+    "toolbar.hoverBackground": "#3B4252",
+    // "toolbar.hoverOutline": "#4C566A", (will disable rounded corners when hovering)
+    "toolbar.activeBackground": "#434C5E",
+
+    // Button Controls
+    "button.background": "#3B4252",
+    "button.border": "#3B425200",
+    "button.foreground": "#ECEFF4",
+    "button.hoverBackground": "#4C566A",
+    "checkbox.background": "#3B4252",
+    "checkbox.foreground": "#ECEFF4",
+    "checkbox.border": "#3B4252",
+
+    // Dropdown Controls
+    "dropdown.background": "#3B4252",
+    "dropdown.border": "#3B4252",
+    "dropdown.foreground": "#ECEFF4",
+    "dropdown.listBackground": "#3B4252",
+
+    // Input Controls
+    "input.background": "#3B4252",
+    "input.border": "#3B4252",
+    "input.foreground": "#ECEFF4",
+    "input.placeholderForeground": "#D8DEE9AA",
+    "inputOption.activeBackground": "#3B4252",
+    "inputOption.activeBorder": "#3B4252",
+    "inputOption.activeForeground": "#ECEFF4",
+    "inputValidation.errorBackground": "#BF616A",
+    "inputValidation.errorBorder": "#BF616A",
+    "inputValidation.errorForeground": "#ECEFF4",
+    "inputValidation.infoBackground": "#5E81AC",
+    "inputValidation.infoBorder": "#5E81AC",
+    "inputValidation.infoForeground": "#ECEFF4",
+    "inputValidation.warningBackground": "#D08770",
+    "inputValidation.warningBorder": "#D08770",
+    "inputValidation.warningForeground": "#ECEFF4",
+
+    // Scrollbar Control
+    "scrollbar.shadow": "#0E1420",
+    "scrollbarSlider.activeBackground": "#2E3440",
+    "scrollbarSlider.background": "#2E3440",
+    "scrollbarSlider.hoverBackground": "#3E4450",
+
+    // Badge
+    "badge.background": "#5E81AC",
+    "badge.foreground": "#ECEFF4",
+
+    // Progress Bar
+    "progressBar.background": "#88C0D0",
+
+    
 	},
 	"tokenColors": [
 		{
